@@ -14,10 +14,8 @@ class EmailParser
   def parse
     if @email.include? ','
       arr = @email.split(', ')
-      arr
     else
       arr = @email.split(' ')
-      arr
     end
   end
 
