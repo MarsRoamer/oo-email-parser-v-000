@@ -15,9 +15,10 @@ class EmailParser
     if @email.include? ','
       arr = @email.split(', ')
       arr
-    else 
+    else
       arr = @email.split(' ')
       arr
+    end
   end
 
 end
