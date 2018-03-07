@@ -19,6 +19,7 @@ class EmailParser
     # end
 
     arr = @email.split(/[\s,]+/)
+    arr.uniq
   end
 
 end
