@@ -18,7 +18,7 @@ class EmailParser
     #   arr = @email.split(' ')
     # end
 
-    arr = @email.split([\s,]+)
+    arr = @email.split(/[\s,]+/)
   end
 
 end
